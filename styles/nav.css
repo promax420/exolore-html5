@@ -1,0 +1,39 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 0px 2px;
+}
+
+nav li:hover {
+    background-color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.Drop-doun:hover {
+    display: block;
+}
+
+.Drop-doun {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    padding: 0px;
+}
+
+.Drop-doun li {
+    padding: 0px;
+    margin: 0px;
+}
